@@ -38,7 +38,7 @@ public class PickUpItem : MonoBehaviour
         currentItems.Add(item); // Add item to the list
         item.transform.SetParent(holdParent); // Set parent to the holdParent
         item.transform.localPosition = new Vector3(0, currentItems.Count * 0.1f, 0); // Stack items slightly above each other
-        item.GetComponent<Collider>().enabled = false; // Disable collider
+        item.GetComponent<Collider>().enabled = true; // Disable collider
         item.GetComponent<Rigidbody>().isKinematic = true; // Make it kinematic
     }
 
