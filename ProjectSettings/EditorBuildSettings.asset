@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Old Sea Port/scenes/Dock Thing.unity
+    path: Assets/Scenes/Dock Thing.unity
     guid: f4fc660ad7cf6eb4eb8cd6d109f7608e
   - enabled: 1
-    path: Assets/Old Sea Port/scenes/innner_dock.unity
+    path: Assets/Scenes/innner_dock.unity
     guid: b53cb57b2e04acf4aa942f7a3f438c9a
   - enabled: 1
-    path: Assets/Old Sea Port/scenes/meattnl.unity
+    path: Assets/Scenes/meattnl.unity
     guid: 941ac182915fec144b73662e838e4e8c
   - enabled: 1
     path: Assets/Scenes/rusty_hole.unity
